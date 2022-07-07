@@ -42,7 +42,7 @@ local events = Instance.new("Folder")
 --Properties:
 
 MainGui.Name = "MainGui"
-MainGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+MainGui.Parent = game.CoreGui
 MainGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 DLLs.Name = "DLLs"
